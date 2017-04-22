@@ -33,7 +33,7 @@ By using the identity function as the success function, the promise will resolve
 
 Note: after-operation will remove all operation listeners on either operation complete or operation error.
 
-## Related modules by other authors
+## Related modules by other authors 
 
 [npm: event-to-promise](https://www.npmjs.com/package/event-to-promise) might be useful
 with other eventEmitters.
