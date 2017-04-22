@@ -1,5 +1,8 @@
 # after-operation
 
+[![Build Status](https://travis-ci.org/DrPaulBrewer/after-operation.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/after-operation)
+[![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/after-operation/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/after-operation?branch=master)
+
 Helper for converting Google Compute Engine [tm] operation event-emitters to Promises
 
 ## Installation
