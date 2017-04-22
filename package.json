@@ -1,0 +1,30 @@
+{
+  "name": "after-operation",
+  "version": "1.0.0",
+  "description": "Promise that resolves on completing a Google Compute Cloud [tm] operation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --slow 2000 --timeout 5000",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/after-operation.git"
+  },
+  "keywords": [
+    "google-compute-engine"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/after-operation/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/after-operation#readme",
+  "devDependencies": {
+      "assert": "^1.4.1",
+      "coveralls": "^2.13.0",
+      "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  }
+}
