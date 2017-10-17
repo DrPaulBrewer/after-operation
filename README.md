@@ -1,5 +1,7 @@
 # after-operation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/after-operation.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/DrPaulBrewer/after-operation.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/after-operation)
 [![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/after-operation/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/after-operation?branch=master)
 
