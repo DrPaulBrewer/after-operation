@@ -4,8 +4,8 @@
   "description": "Promise that resolves on completing a Google Compute Cloud [tm] operation",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec --slow 2000 --timeout 5000",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "test": "nyc --reporter=text mocha --slow 50 --timeout 60000",
+    "coverage": "nyc --reporter=text-lcov mocha --timeout 60000 | coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,9 @@
   },
   "homepage": "https://github.com/drpaulbrewer/after-operation#readme",
   "devDependencies": {
-    "assert": "^1.4.1",
     "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.0.0",
+    "mocha": "^6.0.0",
+    "nyc": "^14.1.1",
     "should": "^13.1.2"
   }
 }
