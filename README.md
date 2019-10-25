@@ -7,6 +7,10 @@
 
 Helper for converting Google Compute Engine [tm] operation event-emitters to Promises
 
+## Deprecation Notice
+
+Oct. 2019: Since GCE operations support `operation.promise()` you should probably use that instead. 
+
 ## Installation
 
     npm i after-operation -S
